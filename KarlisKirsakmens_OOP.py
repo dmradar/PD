@@ -33,7 +33,7 @@ def rezultats():
             messagebox.showerror("Kļūda", "Laiks nevar būt 0!")
 
         sum = math.fabs((ba - sa) / la)
-        rezultata_teksts.config(text="Paātrinājums: " + str(sum) + " m/s²")
+        rezultata_teksts.config(text="Paātrinājums: " + str(sum) + " m/s^2")
 
     except ValueError:
         messagebox.showerror("Kļūda", "Nav ievadīts skaitlis!")
